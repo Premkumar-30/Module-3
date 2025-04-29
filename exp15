@@ -1,0 +1,49 @@
+EX NO 15 : : C PROGRAM TO REPLACE ALL EVEN ELEMENTS TO ‘E’ IN AN ARRAY.
+DATE:29-04-2025
+
+
+AIM:
+To write a program to to replace all even elements to ‘e’ in an array.
+
+ALGORITHM:
+1. Start.
+2. Declare a array size value of type int.
+3. Prompt the user to enter a value.
+4. Read the value using scanf.
+5. Initialize array elements.
+6. Replace all even elements to E
+7. End.
+
+PROGRAM:
+#include <stdio.h>
+int main() {
+ int arr[100], n;
+ scanf("%d", &n);
+ for (int i = 0; i < n; i++) {
+ scanf("%d", &arr[i]);
+ }
+ for (int i = 0; i < n; i++) {
+ if (arr[i] % 2 == 0)
+ printf("E ");
+ else
+ printf("%d ", arr[i]);
+ }
+ printf("\n");
+ return 0;
+}
+
+
+C program to to replace all even elements to ‘e’ in an array.
+
+Developed by:  Prem kumar K
+RegisterNumber:  212223060209
+
+INPUT: 
+5
+2 3 4 5 6
+
+OUTPUT:
+E 3 E 5 E
+
+RESULT:
+Thus, the program is executed and verified successfully
