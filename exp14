@@ -28,7 +28,7 @@ printf("%d ",a[i]);
 }
 
 
-C program to print only the odd numbers in 2D Array.
+C program to delete first element in an array.
 
 Developed by:  Prem kumar K
 RegisterNumber:  212223060209
