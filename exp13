@@ -1,0 +1,59 @@
+
+EX NO 13 : C PROGRAM TO PRINT ONLY ODD ELEMENTS IN 2D ARRAY.
+DATE:29-04-2025
+
+
+AIM:
+To write a program to print only the odd numbers in 2D Array.
+
+ALGORITHM:
+1. Start.
+2. Define a variables i,j,n,a.
+3. Write program to find n x n matrix.
+4. Read the value using scanf.
+5. Ask the user to make an input
+6. Print out the answer.
+7. End.
+
+PROGRAM:
+#include<stdio.h> 
+int main()
+{
+int i,j,n,a[10][10];
+scanf("%d",&n); 
+for(i=0;i<n;i++)
+{
+for(j=0;j<n;j++)
+{
+scanf("%d",&a[i][j]);
+}
+}for(i=0;i<n;i++)
+{
+for(j=0;j<=n;j++)
+{
+if(a[i][j]%2==1)
+{
+printf("a[%d][%d] is %d \n",i,j,a[i][j]);
+}
+}
+printf("\n");
+SAVEETHA ENGINEERING COLLEGE
+}
+return 0;
+}
+
+
+C program to print only the odd numbers in 2D Array.
+
+Developed by:  Prem kumar K
+RegisterNumber:  212223060209
+
+INPUT: 
+2
+10 20 15 40
+
+OUTPUT:
+a[1][0] is 15
+
+RESULT:
+Thus, the program is executed and verified successfully
